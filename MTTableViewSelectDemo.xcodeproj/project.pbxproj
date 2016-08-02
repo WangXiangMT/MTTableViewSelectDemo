@@ -13,7 +13,6 @@
 		2E79CF041D504FC400358F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E79CF021D504FC400358F95 /* Main.storyboard */; };
 		2E79CF061D504FC400358F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E79CF051D504FC400358F95 /* Assets.xcassets */; };
 		2E79CF091D504FC400358F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E79CF071D504FC400358F95 /* LaunchScreen.storyboard */; };
-		2E79CF131D50506700358F95 /* PellTableViewSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E79CF121D50506700358F95 /* PellTableViewSelect.m */; };
 		2E79CF171D50572A00358F95 /* MTTableViewSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E79CF161D50572A00358F95 /* MTTableViewSelect.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		2E79CF051D504FC400358F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E79CF081D504FC400358F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E79CF0A1D504FC400358F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E79CF111D50506700358F95 /* PellTableViewSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PellTableViewSelect.h; sourceTree = "<group>"; };
-		2E79CF121D50506700358F95 /* PellTableViewSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PellTableViewSelect.m; sourceTree = "<group>"; };
 		2E79CF151D50572A00358F95 /* MTTableViewSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTableViewSelect.h; sourceTree = "<group>"; };
 		2E79CF161D50572A00358F95 /* MTTableViewSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTableViewSelect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +66,6 @@
 				2E79CEFF1D504FC400358F95 /* ViewController.h */,
 				2E79CF001D504FC400358F95 /* ViewController.m */,
 				2E79CF141D5050C700358F95 /* MTTableViewSelect */,
-				2E79CF101D50506700358F95 /* PellTableViewSelect */,
 				2E79CF021D504FC400358F95 /* Main.storyboard */,
 				2E79CF051D504FC400358F95 /* Assets.xcassets */,
 				2E79CF071D504FC400358F95 /* LaunchScreen.storyboard */,
@@ -85,15 +81,6 @@
 				2E79CEFA1D504FC400358F95 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2E79CF101D50506700358F95 /* PellTableViewSelect */ = {
-			isa = PBXGroup;
-			children = (
-				2E79CF111D50506700358F95 /* PellTableViewSelect.h */,
-				2E79CF121D50506700358F95 /* PellTableViewSelect.m */,
-			);
-			path = PellTableViewSelect;
 			sourceTree = "<group>";
 		};
 		2E79CF141D5050C700358F95 /* MTTableViewSelect */ = {
@@ -176,7 +163,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E79CF171D50572A00358F95 /* MTTableViewSelect.m in Sources */,
-				2E79CF131D50506700358F95 /* PellTableViewSelect.m in Sources */,
 				2E79CF011D504FC400358F95 /* ViewController.m in Sources */,
 				2E79CEFE1D504FC400358F95 /* AppDelegate.m in Sources */,
 				2E79CEFB1D504FC400358F95 /* main.m in Sources */,
@@ -330,6 +316,7 @@
 				2E79CF0F1D504FC400358F95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
