@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MTTableViewSelect.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+}
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSArray *array = [NSArray arrayWithObjects:@"选择1",@"选择2", nil];
+    
+    [MTTableViewSelect addMTTableViewSelectWithWindowFrame:CGRectMake(250, 200, 150, 40) selectData:array images:nil action:^(NSInteger index) {
+        if (index == 0) {
+            NSLog(@"点击了选择1");
+        }else {
+            NSLog(@"点击了选择2");
+        }
+    } animated:YES];
     
 }
 

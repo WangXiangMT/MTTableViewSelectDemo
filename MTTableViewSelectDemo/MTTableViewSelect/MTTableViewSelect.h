@@ -16,7 +16,7 @@
 // selectData 选择控件的数据源
 // action 点击回调的方法
 // animate 是否弹出动画
-+ (void)addPellTableViewSelectWithWindowFrame:(CGRect)frame
++ (void)addMTTableViewSelectWithWindowFrame:(CGRect)frame
                                    selectData:(NSArray *)selectData
                                        images:(NSArray *)images
                                        action:(void(^)(NSInteger index))action animated:(BOOL)animate;
